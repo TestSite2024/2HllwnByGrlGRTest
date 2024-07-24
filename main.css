@@ -115,6 +115,8 @@ white-space:normal;
   /*background-color: #FFFFFF;*/
   position:absolute;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   top: 70%;
   left: 50%;
 }
@@ -131,6 +133,8 @@ white-space:normal;
   }
   #t1 {
     transform: translateX(-10%) scale(0.7, 0.7);
+    -webkit-transform:  translateX(-10%) scale(0.7, 0.7);
+    -ms-transform:translateX(-10%) scale(0.7, 0.7);
   }
   .pagetop h1 #or {
     font-size: calc(3rem + 3vw);
