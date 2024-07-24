@@ -151,27 +151,26 @@ var pct =new Array(9);
         triggered=true;
         // do this for 10 seconds
         var end = Date.now() + (5 * 1000);
-        var colors = ['#ff912a', '#ffffff'];
 
         (function frame() {
 
             confetti({
-                particleCount: 2,
+                particleCount: 1,
                 angle: 60,
                 spread: 55,
                 scalar: 0.6,
                 shapes: [pumpkin],
                 origin: { x: 0, y:1 },
                 startVelocity: 150,
-                colors: colors
+                colors: ['#ff912a']
             });
             confetti({
-                particleCount: 2,
+                particleCount: 1,
                 angle: 120,
                 spread: 55,
                 startVelocity: 150,
                 origin: { x: 1, y:1},
-                colors: colors
+                colors: ['#ffffff']
             });
 
 
