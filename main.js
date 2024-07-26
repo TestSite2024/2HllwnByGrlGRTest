@@ -203,6 +203,7 @@ var pct =new Array(9);
         $('#or').show();
         $('#girl').show();
 
+        document.getElementsByTagName("body")[0].style.backgroundColor = "#ffffff";
         document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/background.jpg)';
 
         $('#H3').show();
