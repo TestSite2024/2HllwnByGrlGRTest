@@ -205,6 +205,7 @@ var pct =new Array(9);
 
         document.getElementsByTagName("body")[0].style.backgroundColor = "#ffffff";
         document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/background.jpg)';
+        // document.getElementById('testtext').remove();
 
         $('#H3').show();
         $('#H4').show();
