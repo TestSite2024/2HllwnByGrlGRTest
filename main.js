@@ -158,8 +158,8 @@ var pct =new Array(9);
                 particleCount: 1,
                 angle: 60,
                 spread: 55,
-                scalar: 0.6,
-                shapes: [pumpkin],
+                scalar: 1,
+                shapes: ['circle'],
                 origin: { x: 0, y:1 },
                 startVelocity: 150,
                 colors: ['#ff912a']
