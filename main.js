@@ -17,11 +17,11 @@ var pct =new Array(9);
      * From http://diveintohtml5.info/
      */
 
-    var color1 = '#ff95c8';
-    var color2 = '#5194f8';
+    var color1 = '#c982ff';
+    var color2 = '#ffa76d';
     var color3 ='#969696';
-    var colortxt1 = '#F860AA';
-    var colortxt2= '#7FB1ED';
+    var colortxt1 = '#8600f0';
+    var colortxt2= '#ff7f2a';
     var colortxt3= '#000000';
     //Select the background color
     var color =color1;
@@ -289,7 +289,6 @@ var pct =new Array(9);
         document.addEventListener(
             "visibilitychange",
              function(evt) {
-                console.log("page hidden")
               if (document.visibilityState != "visible") {
                 soundHandle.pause();
                 soundHandle.currentTime=0;              }
