@@ -191,7 +191,7 @@ td#or {
   #scratcher-box {
     scale: 0.95;
     top: 50%;
-    left: 5%;
+    left: 1%;
   }
 }
 @media (max-height: 364px) { 
@@ -207,7 +207,7 @@ td#or {
   #scratcher-box {
     scale: 0.8;
     top: 40%;
-    left:3%;
+    left:-3%;
   }
   #t1
   {
