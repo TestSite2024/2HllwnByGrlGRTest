@@ -66,12 +66,11 @@ padding-right: 10px;
 text-shadow: 4px 6px #FFFFFF;
 } 
 .pagetop h3 {
-font-family: "saira condensed", serif;
+font-family: "Alegreya Sans SC", serif;
 color: #000000 !important;
 font-style: normal;
 font-size:5vmin;
 text-align: right;
-font-weight: 200;
 } 
 .pagetop h4 {
   font-family: "Roboto", sans-serif;

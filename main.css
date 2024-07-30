@@ -62,13 +62,14 @@ text-align: center;
 text-shadow: 4px 6px #FFFFFF;
 } 
 .pagetop h3 {
-font-family: "saira condensed", serif;
+font-family: "Alegreya Sans SC", serif;
 flex-direction: column;
 font-size:calc(1.7rem + 0.6vw);
 color: #000000 !important;
 text-align: center;
 font-weight: 400;
 white-space:normal;
+text-shadow: 2px 2px #FFFFFF;
 
 } 
 .pagetop h4 {
@@ -95,7 +96,6 @@ white-space:normal;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  line-height: 8vw;
 }
 #baby
 {
@@ -114,7 +114,9 @@ white-space:normal;
 #t1 {
   width: 350px;
 }
-
+#tboy{
+  white-space: normal;
+}
 #scratcher-box {
   width:22em;
   align-content: center;
@@ -220,7 +222,7 @@ white-space:normal;
     font-size: calc(0.6rem + 0.5vh) ;
   }
   #boy {
-    line-height: 6vh !important;
+    line-height: 7vh !important;
   }
   #or {
     font-size: 3vh !important;
@@ -232,20 +234,14 @@ white-space:normal;
   #scratcher-box {
     position:absolute;
     scale: 0.8; 
-    top: 70%;
+    top: 60%;
     left:40%;
   
   }
-  /* #t1 {
-    -webkit-transform:  translate(-5%,-5%) scale(0.7, 0.7);
-    -ms-transform:translate(-5%,-5%) scale(0.7, 0.7);
-    -moz-transform:translate(-5%,-5%) scale(0.7, 0.7);
-    -o-transform:translate(-5%,-5%) scale(0.7, 0.7);
-    transform: translate(-5%,-5%) scale(0.7, 0.7);
-  } */
- 
- 
- 
+  #t1 {
+    width: 300px;
+  }
+   
 }
 #scratcher-box canvas {
   cursor: grab;

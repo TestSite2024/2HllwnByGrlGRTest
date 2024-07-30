@@ -75,6 +75,7 @@ var pct =new Array(9);
                 $('#tboy').show();
                 $('#tboy').text(gendertext);
                 $('#tboy').css('color',colortxt);
+
                 $('#boy').hide();
                 $('#or').hide();
                 $('#girl').hide();
