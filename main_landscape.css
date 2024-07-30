@@ -182,16 +182,16 @@ td#or {
   }
   #t1
   {
-    width: calc(50% - 10px);
+    width: calc(55% - 10px);
   }
   #reveal {
-    width: calc(50% - 10px);
+    width: calc(55% - 10px);
 
   }
   #scratcher-box {
     scale: 0.95;
     top: 50%;
-    left: 0%;
+    left: 5%;
   }
 }
 @media (max-height: 364px) { 
@@ -213,7 +213,7 @@ td#or {
   {
     width: calc(40% - 10px);
 
-  }
+  }http://127.0.0.1:3002/index.html
   #reveal {
     width: calc(45% - 10px);
 
