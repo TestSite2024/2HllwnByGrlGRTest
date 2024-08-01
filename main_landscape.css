@@ -144,7 +144,32 @@ td#or {
 }
 /* Styles for mobile phones */ 
 
+@media (max-height:321px), (max-width:620px){ 
+  
+  .pagetop h1 {
+    font-size: calc(3rem + 0.55vw);
+  }
+  .pagetop h4 {
+    font-size: calc(0.5rem + 0.55vw);
+  }
+  .pagetop h3 {
+    font-size: calc(1rem + 1vw);
+  }
+  #scratcher-box {
+    scale: 0.7;
+    top:30% ;
+    left: -5%;
+  } 
+  #t1
+  {
+    width: calc(40% - 10px);
 
+  }
+  #reveal {
+    width: calc(45% - 10px);
+
+  }
+}
 @media (min-height: 365px), (max-width: 671px) { 
   .pagetop h1 {
     font-size: calc(4rem + 1vw);
@@ -205,32 +230,6 @@ td#or {
   }
   #reveal {
     width: calc(55% - 10px);
-  }
-}
-@media (max-height:321px){ 
-  
-  .pagetop h1 {
-    font-size: calc(3rem + 0.55vw);
-  }
-  .pagetop h4 {
-    font-size: calc(0.5rem + 0.55vw);
-  }
-  .pagetop h3 {
-    font-size: calc(1rem + 1vw);
-  }
-  #scratcher-box {
-    scale: 0.7;
-    top:30% ;
-    left: -5%;
-  } 
-  #t1
-  {
-    width: calc(40% - 10px);
-
-  }
-  #reveal {
-    width: calc(45% - 10px);
-
   }
 }
 /* @media (max-height:351px) and (min-height:319){ 
