@@ -207,7 +207,7 @@ td#or {
     width: calc(55% - 10px);
   }
 }
-@media (max-height:321px), (max-width:620px){ 
+@media (max-height:321px){ 
   
   .pagetop h1 {
     font-size: calc(3rem + 0.55vw);
