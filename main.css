@@ -102,14 +102,14 @@ text-shadow: 2px 2px #FFFFFF;
   white-space: normal;
 }
 #boy{
-  line-height: 6vh;
+  line-height: 5vh;
 }
 #or{
   line-height: 6vh;
   font-size: 6vh;
 }
 #ggirl {
-  line-height: 6vh;
+  line-height: 5vh;
 }
 #t1 {
   width: 350px;
@@ -168,7 +168,16 @@ text-shadow: 2px 2px #FFFFFF;
   .pagetop h4 {
     font-size: 2vh;
   }
-  
+  #boy{
+    line-height: 5vw;
+  }
+  #or{
+    line-height: 9vw;
+    font-size: 6vh;
+  }
+  #ggirl {
+    line-height: 5vw;
+  }
 }
 @media (max-width: 375px), (max-height:667px) {
   .pagetop h4 {
@@ -215,17 +224,17 @@ text-shadow: 2px 2px #FFFFFF;
     font-size: calc(1.2rem + 0.5vw);
   }
   .pagetop h4 {
-    font-size: calc(0.6rem + 0.5vh) ;
+    font-size: calc(0.7rem + 0.6vw) ;
   }
   #boy {
-    line-height: 7vh !important;
+    line-height: 3vh !important;
   }
   #or {
-    font-size: 3vh !important;
+    font-size: calc(0.7rem + 2vh);
     line-height: 4vh !important;
   }
   #ggirl{
-    line-height: 5vh !important;
+    line-height: 4vh !important;
   }
   #scratcher-box {
     position:absolute;
