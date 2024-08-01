@@ -62,7 +62,7 @@ text-align: center;
 text-shadow: 4px 6px #FFFFFF;
 } 
 .pagetop h3 {
-font-family: "Alegreya Sans SC", serif;
+font-family: "bona nova sc", serif;
 flex-direction: column;
 font-size:calc(1.7rem + 0.6vw);
 color: #000000 !important;
@@ -141,7 +141,7 @@ text-shadow: 2px 2px #FFFFFF;
   .pagetop h1 {
     font-size: calc(4rem + 3vw);
   }
-  .pagetop h1 #or {
+  #or {
     font-size: calc(2rem + 1vw);
   }
   
@@ -170,16 +170,16 @@ text-shadow: 2px 2px #FFFFFF;
   }
   
 }
-@media (max-width: 375px), (max-height:667px) {
+@media (max-width: 375px), (max-height:668px) {
 
   .pagetop h4 {
     font-size: calc(0.7rem + 0.8vw) ;
   }
   .pagetop h1 {
-    font-size: calc(4rem + 1.8vw);
+    font-size: calc(3rem + 1.5vw);
   }
   #or {
-    font-size: calc(2rem + 1vw);
+    font-size: calc(1rem + 1vw);
     line-height: 5vh !important;
   }
   .pagetop h3 {
@@ -194,14 +194,11 @@ text-shadow: 2px 2px #FFFFFF;
       transform-origin: top left;
   } */
   #boy {
-    line-height: 8vh !important;
+    line-height: 6vh !important;
   }
-  #or {
-    font-size: 4vh !important;
-    line-height: 5vh !important;
-  }
+ 
   #ggirl{
-    line-height: 7vh !important;
+    line-height: 5vh !important;
   }
   #scratcher-box {
     position:absolute;

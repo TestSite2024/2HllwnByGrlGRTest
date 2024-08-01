@@ -182,16 +182,16 @@ td#or {
   }
   #t1
   {
-    width: calc(55% - 10px);
+    width: calc(50% - 10px);
   }
   #reveal {
-    width: calc(55% - 10px);
+    width: calc(50% - 10px);
 
   }
   #scratcher-box {
     scale: 0.95;
     top: 50%;
-    left: 1%;
+    left: 0%;
   }
 }
 @media (max-height: 364px) { 
