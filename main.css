@@ -170,8 +170,7 @@ text-shadow: 2px 2px #FFFFFF;
   }
   
 }
-@media (max-width: 375px), (max-height:668px) {
-
+@media (max-width: 375px), (max-height:667px) {
   .pagetop h4 {
     font-size: calc(0.7rem + 0.8vw) ;
   }
@@ -203,7 +202,7 @@ text-shadow: 2px 2px #FFFFFF;
   #scratcher-box {
     position:absolute;
     scale: 1; 
-    top: 75%;
+    top: 70%;
   }
   
 } 
