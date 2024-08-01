@@ -229,6 +229,12 @@ td#or {
   #reveal {
     width: calc(55% - 10px);
   }
+  #boy{
+    line-height: 5vw !important;
+  }
+  #ggirl {
+    line-height: 5vw !important;
+  }
 }
 /* @media (max-height:351px) and (min-height:319){ 
   
