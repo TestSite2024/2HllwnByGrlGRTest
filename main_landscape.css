@@ -194,7 +194,7 @@ td#or {
     left: 0%;
   }
 }
-@media (min-height: 365px) and (min-width: 672px) { 
+@media (min-height: 360px) and (min-width: 672px) { 
   .pagetop h1 {
     font-size: calc(4rem + 1vw);
   }
@@ -212,16 +212,13 @@ td#or {
     width: calc(55% - 10px);
 
   }
-  .pagetop {
-    top: 0%;
-  }
   #scratcher-box {
     scale: 0.95;
     top: 60%;
     left: 0%;
   }
 }
-@media (max-height: 364px) { 
+@media (max-height: 360px) { 
   .pagetop h1 {
     font-size: calc(3rem + 0.4vw);
   }
