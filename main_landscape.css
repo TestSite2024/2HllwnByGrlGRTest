@@ -170,7 +170,7 @@ td#or {
 
   }
 }
-@media (min-height: 365px), (min-width: 671px) { 
+@media (min-height: 365px), (max-width: 671px) { 
   .pagetop h1 {
     font-size: calc(4rem + 1vw);
   }
@@ -190,7 +190,34 @@ td#or {
   }
   #scratcher-box {
     scale: 0.95;
-    top: 50%;
+    top: 60%;
+    left: 0%;
+  }
+}
+@media (min-height: 365px), (min-width: 672px) { 
+  .pagetop h1 {
+    font-size: calc(4rem + 1vw);
+  }
+  .pagetop h4 {
+    font-size: calc(0.5rem + 0.70vw);
+  }
+  .pagetop h3 {
+    font-size: calc(1rem + 1vw);
+  }
+  #t1
+  {
+    width: calc(55% - 10px);
+  }
+  #reveal {
+    width: calc(55% - 10px);
+
+  }
+  .pagetop {
+    top: 0%;
+  }
+  #scratcher-box {
+    scale: 0.95;
+    top: 60%;
     left: 0%;
   }
 }
