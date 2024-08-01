@@ -219,6 +219,9 @@ td#or {
     width: calc(45% - 10px);
 
   }
+  .pagetop {
+    top:0%;
+  }
 }
 @media (min-width: 672px) { 
   
