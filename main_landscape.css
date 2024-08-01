@@ -170,7 +170,7 @@ td#or {
 
   }
 }
-@media (min-height: 365px) and (max-width: 671px) { 
+@media (min-height: 365px), (max-width: 671px) { 
   .pagetop h1 {
     font-size: calc(4rem + 1vw);
   }
@@ -194,17 +194,8 @@ td#or {
     left: 0%;
   }
 }
-@media (min-width: 672px) { 
-  
-  #t1
-  {
-    width: calc(55% - 10px);
-  }
-  #reveal {
-    width: calc(55% - 10px);
-  }
-}
-@media (max-height: 359px), (max-width: 671px) { 
+
+@media (max-height: 360px){ 
   .pagetop h1 {
     font-size: calc(3rem + 0.4vw);
   }
@@ -227,6 +218,16 @@ td#or {
   #reveal {
     width: calc(45% - 10px);
 
+  }
+}
+@media (min-width: 672px) { 
+  
+  #t1
+  {
+    width: calc(55% - 10px);
+  }
+  #reveal {
+    width: calc(55% - 10px);
   }
 }
 /* @media (max-height:351px) and (min-height:319){ 
