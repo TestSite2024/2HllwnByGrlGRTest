@@ -232,6 +232,23 @@ td#or {
     width: calc(55% - 10px);
   }
 }
+@media (max-height:321px){ 
+  
+  #scratcher-box {
+    scale: 0.7;
+    top:30% ;
+    left: -5%;
+  } 
+  #t1
+  {
+    width: calc(40% - 10px);
+
+  }
+  #reveal {
+    width: calc(45% - 10px);
+
+  }
+}
 /* @media (max-height:351px) and (min-height:319){ 
   
   #scratcher-box {
