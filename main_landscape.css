@@ -51,7 +51,7 @@ body {
   -o-transform: translate(0%,-50%);
   transform: translate(0%,-50%); */
   /* background-color: #FFFFFF; */
-  top: 0%;
+  top: 5%;
   display: inline-table;
 
 }
@@ -111,13 +111,13 @@ text-align: right;
 
 }
 #boy{
-  line-height: 6vw !important;
+  line-height: 12vh !important;
 }
 #ggirl {
-  line-height: 6vw !important;
+  line-height: 12vh !important;
 }
 td#or {
-  line-height: 4vw !important;
+  line-height: 9vh !important;
   font-size: 3vw !important;
 }
 #reveal {
@@ -228,12 +228,6 @@ td#or {
   }
   #reveal {
     width: calc(55% - 10px);
-  }
-  #boy{
-    line-height: 5vw !important;
-  }
-  #ggirl {
-    line-height: 5vw !important;
   }
 }
 /* @media (max-height:351px) and (min-height:319){ 
