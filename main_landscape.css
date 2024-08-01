@@ -195,7 +195,15 @@ td#or {
     top: 40%;
     left:-3%;
   }
-  
+  #t1
+  {
+    width: calc(40% - 10px);
+
+  }
+  #reveal {
+    width: calc(45% - 10px);
+
+  }  
   .pagetop {
     top:0%;
   }
@@ -215,7 +223,7 @@ td#or {
   #scratcher-box {
     scale: 0.7;
     top:30% ;
-    left: -10%;
+    left: -6%;
   } 
   
 }
