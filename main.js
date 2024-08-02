@@ -24,14 +24,14 @@ var pct =new Array(9);
     var colortxt2= '#ff7f2a';
     var colortxt3= '#000000';
     //Select the background color
-    var color =color1;
+    var color =color3;
     //Select the text color
-    var colortxt = colortxt1;
+    var colortxt = colortxt3;
     var gendertext1 = "It is a Girl!";
     var gendertext2 = "It is a Boy!";
     var gendertext3= "It is a Demo!";
     //Select the gender text
-    var gendertext = gendertext1;
+    var gendertext = gendertext3;
     var surname;
     var soundHandle = new Audio();
     var triggered=false;
@@ -81,7 +81,7 @@ var pct =new Array(9);
                 $('#girl').hide();
                 document.getElementsByTagName("body")[0].style.backgroundColor = color;
                 document.getElementsByTagName("body")[0].style.backgroundImage = 'none';
-                //document.getElementById("H3").insertAdjacentHTML('afterend', "<h4 id='testtext' style='white-space:normal'> Depending on the product you buy, here it will say either <br> 'It is a Girl!' or 'It is a Boy! with pink or blue background.</h4>");
+                document.getElementById("H3").insertAdjacentHTML('afterend', "<h4 id='testtext' style='white-space:normal'> Depending on the product you buy, here it will say either <br> 'It is a Girl!' or 'It is a Boy! with purple or orange background.</h4>");
 
                 $('#H3').hide();
                 $('#H4').hide();
@@ -206,7 +206,7 @@ var pct =new Array(9);
 
         document.getElementsByTagName("body")[0].style.backgroundColor = "#ffffff";
         document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/background.jpg)';
-        // document.getElementById('testtext').remove();
+        document.getElementById('testtext').remove();
 
         $('#H3').show();
         $('#H4').show();
@@ -262,13 +262,13 @@ var pct =new Array(9);
             $("#baby").text('the baby!');
             surname="the";
         }
-        $(document).ready(function(){
+ /*        $(document).ready(function(){
             // function scope wavesurfer
             pumpkin = confetti.shapeFromPath({
                 path: 'm 0,0 c -4.344,-5.021 -9.773,-9.184 -15.967,-12.31 -0.136,-2.089 -0.289,-4.164 -0.475,-6.252 -0.933,1.653 -1.832,3.336 -2.715,5.004 -3.648,-1.157 -7.33,-2.224 -11.046,-3.186 -0.56,-2.059 -1.119,-4.118 -1.68,-6.177 -0.984,1.743 -1.951,3.517 -3.054,5.2 -4.513,0.617 -9.213,-0.014 -13.794,0.331 -1.392,-2.765 -2.8,-5.516 -4.226,-8.266 -0.678,3.171 -1.459,6.327 -2.426,9.438 -2.307,0.436 -4.581,0.978 -6.906,1.323 -1.255,-1.353 -2.46,-2.72 -3.614,-4.148 -1.222,2.299 -0.56,5.816 -3.495,7.154 -4.972,2.736 -9.587,5.952 -13.473,9.845 2.037,-10.176 9.316,-18.923 19.309,-24.124 1.273,2.33 2.529,4.645 3.853,6.93 1.136,-3.097 1.934,-6.314 3.393,-9.304 3.58,-1.714 7.941,-1.759 11.86,-2.54 1.052,2.9 2.087,5.801 3.207,8.672 1.612,-2.841 3.258,-5.666 4.988,-8.462 4.921,0.811 9.757,1.984 14.423,3.638 -0.441,2.644 -0.916,5.275 -1.374,7.921 2.528,-1.414 4.53,-4.149 7.483,-4.54 C -6.736,-18.532 -0.95,-9.529 0,0 m -41.775,4.93 c -2.036,-4.749 -3.902,-9.559 -5.786,-14.369 3.886,0.015 7.771,0.03 11.657,0.09 -1.901,4.78 -3.784,9.575 -5.871,14.279 m 5.854,7.079 c -0.271,-5.967 4.48,-11.979 11.589,-12.174 12.302,-0.526 21.735,11.212 18.834,21.508 -9.536,-4.434 -19.513,-8.598 -30.423,-9.334 m -43.064,8.673 c -3.003,-10.898 8.246,-22.696 20.972,-20.832 6.6,0.721 10.707,6.132 11.487,11.618 -11.436,0.992 -22.533,4.073 -32.459,9.214 m 26.249,33.442 c -0.729,4.554 2.325,10.311 8.043,10.746 2.867,0.541 5.446,-1.548 7.042,-3.427 2.782,-4.433 1.475,-9.694 2.018,-14.534 8.823,1.458 17.409,6.508 26.589,4.088 14.1,-4.599 22.702,-17.329 24.738,-30.06 3.207,-14.655 0.204,-30.196 -7.77,-43.287 -8.908,-14.383 -27.607,-22.259 -45.695,-22.44 -16.187,-0.556 -33.816,2.976 -45.235,13.812 -18.953,18.022 -23.042,47.135 -9.146,68.569 4.751,7.094 12.607,13.331 22.211,14.158 8.382,0.436 16.306,-2.48 24.332,-4.209 2.189,3.607 6.057,9.56 0.831,12.476 -2.375,2.239 -4.954,-0.993 -5.701,-2.811 -1.307,-3.532 2.851,-2.826 5.209,-2.39 -2.308,-1.578 -5.107,-3.111 -7.466,-0.691',
                 matrix: [0.35277776,0,0,-0.35277778,35.416827,22.91533]
               });
-        });
+        }); */
         document.getElementById('intro').innerHTML= "This is a gender reveal scratch off for <strong>" + surname + "</strong> family. It contains sound when the gender is revealed. Do you want to continue with sound?";
         document.getElementById('id01').style.display='block';
         $('.nosoundbtn').on("click", function (e) {
@@ -325,10 +325,7 @@ var pct =new Array(9);
     
         // create new scratchers
         var scratchers = new Array(9);
-        rnd = randomInRangeint(1,10);
-        if (rnd>8) {
-            rnd=8;   
-        }
+        rnd=2;
         for (i = 0; i < scratchers.length; i++) {
             i1 = i + 1;
             scratchers[i] = new Scratcher('scratcher' + i1);
