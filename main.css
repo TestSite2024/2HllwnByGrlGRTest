@@ -172,7 +172,7 @@ text-shadow: 2px 2px #FFFFFF;
     line-height: 5vw;
   }
   #or{
-    line-height: 9vw;
+    line-height: 5vw;
     font-size: 6vh;
   }
   #ggirl {
@@ -227,11 +227,11 @@ text-shadow: 2px 2px #FFFFFF;
     font-size: calc(0.7rem + 0.6vw) ;
   }
   #boy {
-    line-height: 3vh !important;
+    line-height: 5vh !important;
   }
   #or {
     font-size: calc(0.7rem + 2vh);
-    line-height: 4vh !important;
+    line-height: 8vh !important;
   }
   #ggirl{
     line-height: 4vh !important;
