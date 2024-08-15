@@ -18,7 +18,7 @@ var pct =new Array(9);
      */
 
     var color1 = '#c982ff';
-    var color2 = '#ffa76d';
+    var color2 = '#ffc097';
     var color3 ='#969696';
     var colortxt1 = '#8600f0';
     var colortxt2= '#ff7f2a';
@@ -75,7 +75,6 @@ var pct =new Array(9);
                 $('#tboy').show();
                 $('#tboy').text(gendertext);
                 $('#tboy').css('color',colortxt);
-
                 $('#boy').hide();
                 $('#or').hide();
                 $('#girl').hide();
